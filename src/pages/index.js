@@ -1,5 +1,11 @@
 import React from "react"
-
-export default function Home() {
-  return <div>Hello world!</div>
+import Layout from "../components/Layout"
+import { ExampleButton } from "../components/Button"
+export default () => {
+  return (
+    <Layout>
+      <h1>Hello</h1>
+      <ExampleButton>Click me</ExampleButton>
+    </Layout>
+  )
 }
